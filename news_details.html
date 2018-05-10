@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/news_details.css">
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/slider.js"></script>
+	<title>新闻详情</title>
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">公司首页</a></li>
+				<li><a href="about.html">关于我们</a></li>
+				<li><a href="news.html"  class="on">新闻中心</a></li>
+				<li><a href="product.html">产品中心</a></li>
+				<li><a href="contact.html">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="banner">
+		<ul>
+			<li><img src="img/banner.jpg" alt="轮播"/></li>
+			<li><img src="img/banner2.jpg" alt="轮播"/></li>
+			<li><img src="img/banner3.jpg" alt="轮播"/></li>
+		</ul>
+		<ol>
+			<li class="active"></li>
+			<li></li>
+			<li></li>
+		</ol>
+	</div>
+	<div class="content">
+		<div class="sidebar">
+			<h2>新闻中心</h2>
+			<ul>
+				<li class="on"><a href="#">最新动态</a></li>
+				<li><a href="#">企业新闻</a></li>
+				<li><a href="#">行业新闻</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<div class="top">
+				<h5>新闻中心</h5>
+				<div class="location">
+					当前位置 &gt;&nbsp;
+					<ul>
+						<li><a href="index.html">首页</a> &gt;</li>
+						<li><a href="about.html" class="on">最新动态</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="article">
+				<div class="title">
+					<h2>造成兽用B超机不显示图像的原因</h2>
+					<p>来源：未知|发布时间：2017-09-08 09:06</p>
+				</div>
+				<div class="center">
+					<img src="img/news_center.jpg" alt="新闻">
+					<p>兽用B超机在使用的过程中最主要就是图像的清晰度的问题，如果说兽用B超突然不显示图像了，就应该分析原因。任何仪器都可能出现故障，认真分析原因就关键。兽用B超在使用过程中可能会出现屏幕上没有图像的情况，这时需要及时排除是何原因造成的故障。</p>
+					<p>首先：打开兽用B超机器外壳，发现其内有很多灰尘，将灰尘清理干净后再开机。其次：右屏幕依旧没有图像就在出现故障时把各路输出电压都测量一遍，未发现问题。最后：关机拔出机子内的板卡，用目视法检查，发现兽用B超系统中CPU板上有一个角落的一部分被腐蚀。经仔细查看，此处旁边有电池出现漏液情况。测量电池的电压，3.58V与标称上的3.6V基本一致，估计此电池还能继续使用。</p>
+					<p>注意事项：在以上情况下不能随便更换电池，因为一般电池在给某些特定的芯片供电以便保存时间和一些设置信息，如果贸然取下可能会导致兽用B超程序丢失而出现新的故障。将被腐蚀的兽用B超系统中的部分电路清理干净后再开机，故障仍未解决。再次取下CPU板，仔细观察是否还有未清理干净的部分，无意间感到电池附近有一个芯片很烫手。</p>
+					<p>观察发现此芯片是用来储存程序的，其附近还有几个同样的芯片，但是没有那么热。用酒精将此芯片冷却后再开机，发现只有这个芯片会慢慢发热，当热到一定程度时机器就报错误。当芯片散热后可以正常工作，由此可断定此芯片未完全损坏（还能读出程序）。更换相同型号的芯片，将坏的芯片的程序读出后再写入新的芯片内更换到兽用B超系统中的CPU板上，装机，检查此兽用B超无误后再开机，未再出现此故障，故障排除。</p>
+				</div>
+			</div>
+			<div class="flip">
+				<p><a href="#">上一篇：兽用B超检查妊娠母犬整个过程状况</a></p>
+				<p><a href="#">下一篇：牛用B超观察奶牛配种后和产后状况</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="content">
+			<div class="list">
+				<dl>
+					<dt>公司首页</dt>
+					<dd><a href="about.html">关于我们</a></dd>
+					<dd><a href="product.html">产品中心</a></dd>
+					<dd><a href="news.html">新闻中心</a></dd>
+					<dd><a href="contact.html">联系我们</a></dd>
+				</dl>
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="about.html">公司简介</a></dd>
+					<dd><a href="about.html">企业文化</a></dd>
+					<dd><a href="about.html">企业荣誉</a></dd>
+					<dd><a href="about.html">资格认证</a></dd>
+				</dl>
+				<dl>
+					<dt>产品中心</dt>
+					<dd><a href="product.html">兽用B超</a></dd>
+					<dd><a href="product.html">羊用B超</a></dd>
+					<dd><a href="product.html">猪用B超</a></dd>
+					<dd><a href="product.html">牛用B超</a></dd>
+				</dl>
+				<dl>
+					<dt>新闻中心</dt>
+					<dd><a href="news.html">最新动态</a></dd>
+					<dd><a href="news.html">企业新闻</a></dd>
+					<dd><a href="news.html">行业新闻</a></dd>
+					<dd><a href="news.html">热点焦距</a></dd>
+				</dl>
+				<dl>
+					<dt>联系我们</dt>
+					<dd><a href="contact.html">公司邮箱</a></dd>
+					<dd><a href="contact.html">在线留言</a></dd>
+					<dd><a href="contact.html">网上咨询</a></dd>
+				</dl>
+			</div>
+			<div class="about">
+				<p>咨询电话：0371-55696921</p>
+				<p>公司地址：河南省-郑州市金水区东风</p>
+				<p>路与文博东路交叉口世博中心2803室</p>
+				<p>豫ICP备14007298号</p>
+			</div>
+			<div class="code">
+				<h4>扫一扫</h4>
+				<img src="img/erwei.jpg" alt="二维码">
+			</div>
+		</div>
+		<div class="copyright">
+			版权所有：博祥来电子科技有限公司 ICP备14007298号
+		</div>
+	</div>
+</body>
+</html>

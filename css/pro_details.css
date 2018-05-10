@@ -1,0 +1,19 @@
+.center img{
+	margin-top: 120px;
+	display: block;
+	float: left;
+}
+.text{
+	float: right;
+	margin-top: 60px;
+	width: 510px;
+	margin-right: 30px;
+	color: #333;
+}
+.text h1{
+	font-size: 24px;
+	margin-bottom: 35px;
+}
+.text p{
+	font-size: 18px;
+}

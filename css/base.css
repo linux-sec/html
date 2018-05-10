@@ -1,0 +1,300 @@
+/* 公共样式 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, 
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, 
+tfoot, thead, tr, th, td ,textarea { margin:0; padding:0;  }
+address,cite,dfn,em,var, i {font-style:normal;}
+body {font-size: 16px; line-height: 1.5; font-family:'Microsoft Yahei','simsun','arial','tahoma';  color: #222; }
+table { border-collapse:collapse; border-spacing:0; }
+h1, h2, h3, h4, h5, h6, th { font-size: 100%; font-weight: normal; }
+button,input,select,textarea{font-size:100%;outline:none;}
+textarea{resize:none;vertical-align:top;}
+fieldset,img{border:0;}
+a { text-decoration: none; background: none; }
+ul, ol { list-style: none; }
+:focus{ outline:none;}
+.clearfix{ clear: both; content: ""; display: block; overflow: hidden }
+.clear{clear: both;}
+.fl{ float: left; }
+.fr{float: right;}
+
+.header{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo img{
+	display: block;
+}
+.nav{
+	float: right;
+}
+.nav ul li{
+	float: left;
+	margin-left:85px;
+}
+.nav ul li a{
+	display: block;
+	color: #333;
+	line-height: 80px;
+}
+.nav ul li:hover a{
+	color: #0267af;
+}
+.header .nav .on{
+	color: #0267af;
+}
+
+/* 图片轮播 */
+
+.banner{
+	position:relative;
+	height:600px;
+}
+.banner ul li{
+	position:absolute;
+	width:100%;
+	overflow:hidden;
+	display:none;
+}
+.banner ul li:first-child{
+	display:block;
+	cursor:pointer;
+}
+.banner ul li img{
+	position:relative;
+	width:1920px;
+	margin-left:-960px;
+	left:50%;
+}
+.banner ol{
+	position:absolute;
+	z-index:5;
+	width:100%;
+	text-align:center;
+	bottom:40px;
+}
+.banner ol li{
+	width:14px;
+	height:14px;
+	border-radius:50%;
+	cursor:pointer;
+	background:url(../img/css.png) left -16px;
+	display:inline-block;
+	margin:0 10px;
+}
+.banner ol .active{
+	background:url(../img/css.png) left -32px;
+}
+
+
+
+.footer{
+	background: #adadad;
+	clear: both;
+	height: 180px;
+}
+.footer .content{
+	width: 1200px;
+	margin:0 auto;
+	height: 160px;
+}
+.footer .content .list{
+	width: 715px;
+	float: left;
+	margin-top: 15px;
+}
+.footer .content .list dl{
+	float: left;
+	width: 75px;
+	margin-right: 85px;
+}
+.footer .content .list dl:last-child{
+	margin-right: 0px;
+}
+.footer .content .list dl>dt{
+	font-size: 18px;
+	color: #fff;
+}
+.footer .content .list dl>dd a{
+	color: #fff;
+}
+.footer .content .about{
+	float: left;
+	margin-left: 75px;
+	margin-top: 35px;
+}
+.footer .content .about p{
+	font-size: 14px;
+	color: #fff;
+}
+.code{
+	float: right;
+	margin-top: 15px;
+	width: 95px;
+}
+.code h4{
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.copyright{
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	border-top: 1px solid #fff;
+}
+.top{
+	border-bottom: 1px solid #999999;
+}
+.top:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.top h5{
+	background: url(../img/beijin_five.png) no-repeat 0px center;
+	text-indent: 1em;
+	float: left;
+	color: #333;
+}
+.top ul{
+	float: right;
+}
+.top big{
+	font-size: 18px;
+	color: #333;
+}
+.top .location{
+	float: right;
+}
+.top .location{
+	font-size: 14px;
+	color: #333;
+}
+.top ul li{
+	display: inline-block;
+	font-size: 14px;
+	color: #333;
+}
+.top ul li a{
+	color: #333;
+}
+.top ul li:hover a{
+	color: #0267af;
+}
+.top .location .on{
+	color: #0267af;
+}
+.content{
+	width: 1200px;
+	margin:0 auto;
+	margin-top: 80px;
+}
+.content:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.sidebar{
+	width: 178px;
+	background: #fff;
+	float: left;
+}
+.sidebar ul li{
+	height: 54px;
+	text-align: center;
+	line-height: 55px;
+	border: 1px solid #0267af;
+	margin-top: -1px;
+}
+.sidebar ul li a{
+	display: block;
+	color: #333;
+	font-size: 18px;
+}
+.sidebar h2{
+	background:#0267af url(../img/beijin_two.png) no-repeat 10px center;
+	border-top: 1px solid #0267af;
+	height: 54px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 54px;
+	color: #fff;
+}
+.sidebar ul li{
+	background: url(../img/beijin_four.png) no-repeat 10px center;
+	position:relative;
+	left:0;
+	transition: all 0.5s;
+}
+.sidebar ul li:hover{
+	left: 10px;
+	text-indent: 10px;
+	background: url(../img/beijin_three.png) no-repeat 10px center;
+}
+.sidebar ul li:hover a{
+	color: #0267af;
+}
+.sidebar .on{
+	text-indent: 10px;
+	left: 10px;
+	background: url(../img/beijin_three.png) no-repeat 10px center;
+}
+.sidebar .on a{
+	color: #0267af;
+}
+.content .main{
+	float: right;
+	width: 950px;
+	margin-bottom: 110px;
+}
+.content .main:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.page{
+	height: 30px;
+	float: right;
+}
+.page ul li{
+	width: 30px;
+	float: left;
+	margin-left: 15px;
+	background: #dddddd;
+	text-align: center;
+	line-height: 30px;
+}
+.page ul li a{
+	color: #333;
+	display: block;
+}
+.page ul li:first-child{
+	width: 100px;
+	background: #dddddd;
+	text-align: center;
+	line-height: 30px;
+}
+.page ul li:last-child{
+	width: 100px;
+	background: #dddddd;
+	text-align: center;
+	line-height: 30px;
+}
+.page .on{
+	background: #0267af;
+}
+.page .on a{
+	color: #fff;
+}
+.page li:hover a{
+	color: #fff;
+	background: #0267af;
+}
+

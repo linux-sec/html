@@ -1,0 +1,11 @@
+
+.text img{
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+.text p{
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 24px;
+	color: #666;
+}

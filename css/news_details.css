@@ -1,0 +1,42 @@
+.title{
+	margin-top: 45px;
+}
+.title h2{
+	font-size: 18px;
+	color: #333;
+}
+.title p{
+	font-size: 12px;
+	color: #a9a9a9;
+	line-height: 24px;
+}
+.center img{
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	border: 1px solid #666666;
+}
+.center p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #666666;
+	text-indent: 2em;
+	margin-bottom: 12px;
+	text-align: justify;
+}
+.center p:last-child{
+	margin-bottom: 0px;
+}
+.flip{
+	margin-top: 35px;
+}
+.flip p{
+	margin-bottom: 10px;
+}
+.flip p a:hover{
+	color: #0267af;
+}
+.flip p a{
+	font-size: 14px;
+	color: #333;
+}

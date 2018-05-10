@@ -1,0 +1,37 @@
+.product{
+	margin-top: 20px;
+}
+.product ul li{
+	width: 220px;
+	height: 230px;
+	float: left;
+	text-align: center;
+	margin-left: 23px;
+	margin-bottom: 35px;
+}
+.product ul li:hover{
+	box-shadow:0px 0px 14px 2px #89c0ee;
+}
+.product ul li a{
+	display: block;
+}
+.product ul li img{
+	display: block;
+	border: 1px solid #f0f0f0;
+}
+.product ul li:first-child{
+	margin-left: 0px;
+}
+.product ul li:nth-child(4n+1) {
+	margin-left: 0px;
+}
+.product ul li h4{
+	height: 32px;
+	line-height: 32px;
+	background: #999999;
+}
+.product ul li h4 a{
+	color: #333;
+	display: block;
+
+}

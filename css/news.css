@@ -1,0 +1,53 @@
+.news_list{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.news_list ul li{
+	width: 950px;
+	height: 178px;
+	margin-bottom: 40px;
+}
+.news_list ul li:last-child{
+	margin-bottom: 0px;
+}
+.news_list ul li:hover img{
+	background: #dae9f4;
+}
+.news_list ul li:hover .text{
+	background: #a4d9f6;
+}
+.news_list img{
+	float: left;
+	border: 1px solid #dddddd;
+	display: block;
+}
+.text{
+	width: 670px;
+	float: right;
+	background: #dddddd;
+	height: 158px;
+	padding: 10px;
+}
+.text h3{
+	font:18px/30px "Microsoft Yahei";
+}
+.text h3 a{
+	color: #333;
+	display: block;
+}
+.text span{
+	display: block;
+	border-left: 1px solid #999999;
+	line-height: 14px;
+	margin-top: 10px;
+	color: #999999;
+	font-size: 12px;
+	margin-bottom: 15px;
+	
+}
+.text p{
+	margin-top: 20px;
+	color: #666;
+	font-size: 14px;
+	line-height: 25px;
+}

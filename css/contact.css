@@ -1,0 +1,141 @@
+#map{
+	width: 555px;
+	height: 450px;
+}
+.map{
+	width: 555px;
+	float: left;
+}
+.map>span{
+	display: block;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	color: #333;
+}
+.info{
+	width: 360px;
+	float: right;
+}
+.info form{
+	margin-bottom: 15px;
+}
+.info>span{
+	display: block;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	color: #333;
+}
+.bbs input{
+	width: 125px;
+	height: 28px;
+	padding: 0px;
+	line-height: 30px;
+	border: 1px solid #818181;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	font-family:"Microsoft Yahei";
+	color: #333;
+	text-indent: 5px;
+	padding-bottom: 2px;
+}
+.bbs{
+	margin-left: 16px;
+	margin-bottom: 15px;
+}
+.bbs>span{
+	color: #333;
+}
+.bbs textarea{
+	padding: 5px;
+	margin-left: 10px;
+	width: 280px;
+	height: 100px;
+	font-family:"Microsoft Yahei";
+	border: 1px solid #818181;
+	color: #333;
+}
+.validate{
+	height: 30px;
+	width: 360px;
+	margin-bottom: 15px;
+}
+.validate span{
+	float: left;
+	line-height: 30px;
+	color: #333;
+}
+.validate input{
+	width: 83px;
+	height: 28px;
+	padding: 0px;
+	margin-left: 10px;
+	margin-right: 15px;
+	border: 1px solid #818181;
+	float: left;
+	font-family:"Microsoft Yahei";
+	color: #333;
+	text-indent: 5px;
+	padding-bottom: 2px;
+}
+.validate img{
+	border: 1px solid #f4f1f1;
+	cursor:pointer;
+}
+.validate a{
+	display: block;
+	float: right;
+	font-size: 12px;
+	width: 98px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: #437db4;
+	margin-right: 10px;
+	border: 1px solid #f4f1f1;
+}
+[type=submit]{
+	width: 85px;
+	font-size: 16px;
+	height: 30px;
+	line-height: 26px;
+	background: #fff;
+	border:1px solid #0267af;
+	margin-left: 75px;
+	font-family:"Microsoft Yahei";
+	cursor:pointer;
+	padding: 0px;
+	padding-bottom: 28px;
+}
+[type=submit]:hover{
+	background: #0267af;
+	color: #fff;
+}
+[type=reset]{
+	width: 85px;
+	font-size: 16px;
+	height: 30px;
+	line-height: 26px;
+	background: #fff;
+	border:1px solid #0267af;
+	margin-left: 75px;
+	font-family:"Microsoft Yahei";
+	cursor:pointer;
+	padding: 0px;
+	padding-bottom: 28px;
+}
+[type=reset]:hover{
+	background: #0267af;
+	color: #fff;
+}
+.info h3{
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #333;
+}
+.info p{
+	font-size: 14px;
+	line-height: 26px;
+	color: #333;
+}
